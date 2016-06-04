@@ -1,0 +1,26 @@
+@charset "utf-8";
+.header {
+	color: #FFFFFF;
+	font-size: 2em;
+	background-color: #000000;
+	font-family: abel;
+	font-style: normal;
+	font-weight: 400;
+}
+body {
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 200;
+}
+nav   {
+	text-align: right;
+}
+
+
+
+body h1 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+footer {
+}
