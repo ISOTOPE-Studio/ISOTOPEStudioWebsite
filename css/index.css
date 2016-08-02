@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  background-position: center;
+  background-size: cover;
+}
+
 body {
 	margin: 0;
 }
@@ -7,61 +13,91 @@ a {
 }
 
 header {
+  position: fixed;
   background: rgba(0,0,0,0.8);
+  margin: 0;
+  padding: 0;
   float: left;
   color: #fff;
   min-width: 100%;
+  height: 70px;
 }
 
-h1, h2 {
-  font-family: "Arial", sans-serif;
+h1, h2, p, footer {
+  font-family: "Arial", "等线", sans-serif;
+  text-align: center;
 }
 
 #logo {
-  background-image: url('../img/logo-s.png');
-  margin: 10px 50px 0;
+  background-image: url('../img/logo-s.svg');
+  margin: 1px 50px 0;
   background-size: 50px;
   background-position: 4% center;
   background-repeat: no-repeat;
-  padding: 10px 30px 10px 85px;
+  padding: 10px 0px 10px 85px;
   float: left;
   font-size: 2.5em;
 }
 
 #nav-bar {
-  margin: 10px 50px 0;
+  margin: 0 2% 0 0;
+  padding: 0;
+  float: right;
 }
 
 #nav-bar li {
   display: inline-block;
-  float: right;
+  width: 120px;
+  text-align: center;
   list-style: none;
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-family: "Arial", sans-serif;
-  padding: 5px 10px;
-  background-color: gray;
+  padding: 23px 0px;
+/*  background-color: rgba(0,100,255,0.4);*/
   color: whfite;
-  margin: 5px 2px;
+  margin: 0px 0px;
 }
 
 #nav-bar li:hover {
-  background-color: black;
+  background-color: skyblue;
+  color: black;
+  transition-duration: .5s;
 }
 
+#nav-bar li:active {
+  background-color: cadetblue;
+  color: white;
+  transition-duration: .5s;
+}
+
+#nav-bar .selected,
+#nav-bar .selected:hover {
+  background-color: aquamarine;
+}
+
+footer {
+  text-align: center;
+}
+
+/*
+INDEX PAGE
+*/
+
+/*
+SECTION 1
+*/
+
 #section-1 {
-  padding-top: 200px;
+  padding-top: 250px;
   text-align: center;
   box-sizing: border-box;
   height: 800px;
   
   font-size: 2em;
-  line-height: 0.5;
   
   clear: both;
   background-color: black;
   background-image: url('../img/index-section1.JPG');
-  background-position: center;
-  background-size: cover;
 }
 
 #logo-s1 {
@@ -71,8 +107,27 @@ h1, h2 {
 
 #section-1 h2 {
   color: white;
+  line-height: 1.2;
 }
 
-footer {
-  text-align: center;
+/*
+SECTION CONTACT
+*/
+
+#contact {
+  background-image: url('../img/index-contact.JPG');
+  height: 500px;
+}
+
+#contact h2 {
+  font-size: 3em;
+  color: white;
+  line-height: 1.2;
+  padding: 100px;
+}
+
+#contact p {
+  font-size: 1.5em;
+  color: white;
+  line-height: 1.9;
 }

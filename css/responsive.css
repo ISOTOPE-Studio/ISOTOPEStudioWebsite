@@ -1,0 +1,25 @@
+@media screen and (max-width: 1920px, min-width: 1280px) {
+  #nav-bar {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #nav-bar {
+    float: none;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    margin: 0;
+    padding: 5px 0px;
+  }
+  
+  #nav-bar li {
+    display: inline-block;
+    float: none;
+  }
+  
+  #logo {
+    float: none;
+    text-align: center;
+  }
+}
