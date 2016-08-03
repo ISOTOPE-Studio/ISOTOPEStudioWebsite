@@ -1,25 +1,57 @@
-@media screen and (max-width: 1920px, min-width: 1280px) {
+@media screen and (max-width: 1920px, min-width: 960px) {
   #nav-bar {
     display: block;
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 960px) {
+  #logo {
+    font-size: 1.7em;  
+    background-size: 25px;
+    margin: 0 100px;
+    padding: 5px 0 0;
+  }
+  
   #nav-bar {
     float: none;
     text-align: center;
     background-color: rgba(0,0,0,0.9);
     margin: 0;
-    padding: 5px 0px;
+    padding: 10px 0px;
+    height: 35px;
   }
   
   #nav-bar li {
+    font-size: 1.1em;
     display: inline-block;
     float: none;
+    width: 90px;
+    padding: 8px 0 0 0;
+    height: 35px;
   }
   
   #logo {
     float: none;
     text-align: center;
   }
+  
+  #section-1 {
+    font-size: 1.5rem;
+  }
+  
+  #contact {
+    height: 300px;
+  }
+  
+  #contact h2 {
+    font-size: 1.5rem;
+    padding: 45px 0;
+  }
+  
+  #contact p {
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+  
+  
 }

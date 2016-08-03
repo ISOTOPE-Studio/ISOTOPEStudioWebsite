@@ -1,7 +1,17 @@
+/*
+FONTS
+*/
+@font-face {
+  font-family: CenturyGothic;
+  src: url('../fonts/CenturyGothic.TTF');
+}
+
+
 * {
   margin: 0;
   background-position: center;
   background-size: cover;
+  padding: 0;
 }
 
 body {
@@ -20,7 +30,7 @@ header {
   float: left;
   color: #fff;
   min-width: 100%;
-  height: 70px;
+  height: 60px;
 }
 
 h1, h2, p, footer {
@@ -39,6 +49,11 @@ h1, h2, p, footer {
   font-size: 2.5em;
 }
 
+#nav-bar li {
+  font-family: 'CenturyGothic', sans-seri;
+  font-weight: bolder;
+}
+
 #nav-bar {
   margin: 0 2% 0 0;
   padding: 0;
@@ -51,8 +66,9 @@ h1, h2, p, footer {
   text-align: center;
   list-style: none;
   font-size: 1.4em;
-  font-family: "Arial", sans-serif;
-  padding: 23px 0px;
+  padding: 16px 0 0 0;
+  height: 60px;
+  box-sizing: border-box;
 /*  background-color: rgba(0,100,255,0.4);*/
   color: whfite;
   margin: 0px 0px;
@@ -96,8 +112,10 @@ SECTION 1
   font-size: 2em;
   
   clear: both;
-  background-color: black;
-  background-image: url('../img/index-section1.JPG');
+  background: linear-gradient(#000, transparent 90%),
+    linear-gradient(0deg, rgba(255,255,255,0.2) 40%,  transparent),
+    black url('../img/index-section1.JPG') center no-repeat;
+  background-size: cover;
 }
 
 #logo-s1 {
