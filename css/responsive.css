@@ -30,7 +30,7 @@
     display: block;
     text-align: center;
     float: none;
-    padding: 8px 0 0 0;
+    padding: 7px 0 0 0;
     height: 35px;
     width: 40%;
   }
@@ -42,8 +42,14 @@
   
   #section-1 {
     font-size: 1.5rem;
-    height: 500px;
+    height: auto;
     padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  
+  #logo-s1 {
+    max-height: 200px;
+    margin-bottom: 30px;
   }
   
   #contact {
