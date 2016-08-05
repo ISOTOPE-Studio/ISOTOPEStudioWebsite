@@ -17,8 +17,9 @@ body {
   margin: 0;
 }
 
-a {
+a, a:visited, a:link {
   text-decoration: none;
+  color: white;
 }
 
 header {
@@ -38,7 +39,8 @@ h1, h2, p, footer {
 }
 
 .wrapper {
-  margin: 0 5%;
+  margin: 0 auto;
+  max-width: 1080px;
 }
 
 #logo {
@@ -75,6 +77,7 @@ h1, h2, p, footer {
 /*  background-color: rgba(0,100,255,0.4);*/
   color: whfite;
   margin: 0px 0px;
+  transition-duration: .5s;
 }
 
 #nav-bar li:hover {
@@ -96,6 +99,38 @@ h1, h2, p, footer {
 
 footer {
   text-align: center;
+  line-height: 1.5;
+  padding: 20px 0 10px;
+  background-color: gray;
+  color: white;
+}
+
+footer .wrapper {
+  margin: 10px auto;
+}
+
+.footer-item {
+  float: left;
+  display: inline-block;
+  list-style: none;
+  text-align: left;
+  width: 15%;
+  margin: 0 2.28%;
+}
+
+.footer-head2 {
+  font-weight: bold;
+  margin: 15px 0 5px;
+}
+
+.footer-text {
+  font-weight: lighter;
+}
+
+#copyright {
+  clear: both;
+  display: block;
+  margin: 10px;
 }
 
 /*
