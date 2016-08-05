@@ -6,7 +6,6 @@ FONTS
   src: url('../fonts/CenturyGothic.TTF');
 }
 
-
 * {
   margin: 0;
   background-position: center;
@@ -15,7 +14,7 @@ FONTS
 }
 
 body {
-	margin: 0;
+  margin: 0;
 }
 
 a {
@@ -38,9 +37,13 @@ h1, h2, p, footer {
   text-align: center;
 }
 
+.wrapper {
+  margin: 0 5%;
+}
+
 #logo {
   background-image: url('../img/logo-s.svg');
-  margin: 1px 50px 0;
+  margin: 0;
   background-size: 50px;
   background-position: 4% center;
   background-repeat: no-repeat;
@@ -55,7 +58,7 @@ h1, h2, p, footer {
 }
 
 #nav-bar {
-  margin: 0 2% 0 0;
+  margin: 0;
   padding: 0;
   float: right;
 }

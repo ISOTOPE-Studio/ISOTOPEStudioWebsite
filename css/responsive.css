@@ -5,29 +5,34 @@
 }
 
 @media screen and (max-width: 960px) {
+  header {
+    position: inherit;  
+    height: auto;
+  }
+  
   #logo {
-    font-size: 1.7em;  
-    background-size: 25px;
-    margin: 0 100px;
+    font-size: 1.5em;  
+    background-size: 0px;
+    margin: 0 0px;
     padding: 5px 0 0;
   }
   
   #nav-bar {
     float: none;
     text-align: center;
-    background-color: rgba(0,0,0,0.9);
-    margin: 0;
     padding: 10px 0px;
-    height: 35px;
+    height: auto;
   }
   
   #nav-bar li {
     font-size: 1.1em;
-    display: inline-block;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
     float: none;
-    width: 90px;
     padding: 8px 0 0 0;
     height: 35px;
+    width: 40%;
   }
   
   #logo {
@@ -37,6 +42,8 @@
   
   #section-1 {
     font-size: 1.5rem;
+    height: 500px;
+    padding-top: 50px;
   }
   
   #contact {
