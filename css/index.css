@@ -162,6 +162,7 @@ SECTIONS
 
 .section {
   height: 500px;
+  margin: 50px 0; 
 }
 
 .section h2 {
@@ -179,6 +180,51 @@ SECTION SERVICE
 
 #service {
   background-color: #8ECBD9;
+}
+
+#service-stack {
+  color: white;
+  margin: 50px 0; 
+}
+
+#service-stack:after {
+  clear: both;
+}
+
+#service-stack .button {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 20px auto 0;
+  width: 110px;
+  padding: 7px 0;
+  border: 3px solid white;
+  border-radius: 20px;
+  transition-duration: .5s;
+}
+
+#service-stack .button:hover {
+  background-color: cornflowerblue;
+  border: 3px solid cornflowerblue;
+  transition-duration: .5s;
+}
+
+#stack-graphic {
+  background-image: url('../img/index-graphic.JPG');
+}
+
+#stack-editing {
+  
+  background-image: url('../img/index-editing.JPG');
+}
+
+#stack-recording {
+  
+  background-image: url('../img/index-recording.JPG');
+}
+
+#stack-plugin {
+  
+  background-image: url('../img/index-plugin.JPG');
 }
 
 /*
