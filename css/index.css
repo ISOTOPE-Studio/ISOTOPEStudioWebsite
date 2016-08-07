@@ -11,6 +11,7 @@ FONTS
   background-position: center;
   background-size: cover;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -101,7 +102,7 @@ footer {
   text-align: center;
   line-height: 1.5;
   padding: 20px 0 10px;
-  background-color: gray;
+  background-color: #1A62AC;
   color: white;
 }
 
@@ -110,8 +111,8 @@ footer .wrapper {
 }
 
 .footer-item {
-  float: left;
   display: inline-block;
+  vertical-align: text-top;
   list-style: none;
   text-align: left;
   width: 15%;
@@ -120,7 +121,7 @@ footer .wrapper {
 
 .footer-head2 {
   font-weight: bold;
-  margin: 15px 0 5px;
+  margin: 5px 0;
 }
 
 .footer-text {
@@ -130,7 +131,8 @@ footer .wrapper {
 #copyright {
   clear: both;
   display: block;
-  margin: 10px;
+  margin: 20px 0px 10px;
+  color: rgb(200,200,200);
 }
 
 /*
@@ -142,13 +144,7 @@ SECTION 1
 */
 
 #section-1 {
-  padding-top: 250px;
   text-align: center;
-  box-sizing: border-box;
-  height: 800px;
-  
-  font-size: 2em;
-  
   clear: both;
   background: linear-gradient(#000, transparent 90%),
     linear-gradient(0deg, rgba(255,255,255,0.2) 40%,  transparent),
@@ -156,14 +152,33 @@ SECTION 1
   background-size: cover;
 }
 
-#logo-s1 {
-  max-height: 300px;
-  margin-bottom: 40px;
+#section-1 h2 {
+  color: white
 }
 
-#section-1 h2 {
+/*
+SECTIONS
+*/
+
+.section {
+  height: 500px;
+}
+
+.section h2 {
   color: white;
-  line-height: 1.2;
+}
+
+.section p {
+  color: white;
+  line-height: 2;
+}
+
+/*
+SECTION SERVICE
+*/
+
+#service {
+  background-color: #8ECBD9;
 }
 
 /*
@@ -172,18 +187,8 @@ SECTION CONTACT
 
 #contact {
   background-image: url('../img/index-contact.JPG');
-  height: 500px;
 }
 
-#contact h2 {
-  font-size: 3em;
-  color: white;
-  line-height: 1.2;
-  padding: 100px;
-}
-
-#contact p {
-  font-size: 1.5em;
-  color: white;
-  line-height: 1.9;
+.link:link {
+  color: deepskyblue;
 }

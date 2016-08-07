@@ -1,6 +1,9 @@
+/*
+GLOBAL LAYOUT
+*/
 @media (max-width: 1080px) {
   .wrapper {
-    margin: 0 5%;
+    margin: 0 1em;
   }
 }
 
@@ -15,6 +18,8 @@
     background-size: 0px;
     margin: 0 0px;
     padding: 5px 0 0;
+    float: none;
+    text-align: center;
   }
   
   #nav-bar {
@@ -39,15 +44,40 @@
     width: 80%;
     transition-timing-function: ease;
   }
-  
-  
-  #logo {
-    float: none;
-    text-align: center;
+}
+
+/*
+PAGE: INDEX
+*/
+
+@media (min-width: 961px) {
+  #section-1 {
+    padding-top: 250px;
+    height: 800px;
+    font-size: 2em;
   }
   
+  #logo-s1 {
+    max-height: 300px;
+    margin-bottom: 40px;
+  }
+  .section {
+    height: 500px;
+  }
+  
+  .section h2 {
+    font-size: 3em;
+    padding: 100px;
+  }
+  .section p {
+    font-size: 1.5em;
+    color: white;
+  }
+}
+
+@media (max-width: 960px) {
   #section-1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     height: auto;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -58,19 +88,32 @@
     margin-bottom: 30px;
   }
   
-  #contact {
-    height: 300px;
-  }
+  .section {
+    height: auto;
+  }  
   
-  #contact h2 {
-    font-size: 1.5rem;
-    padding: 45px 0;
-  }
-  
-  #contact p {
-    font-size: 1.2rem;
+  .section h2 {
+    font-size: 1rem;
     padding: 5px;
   }
   
+  .section p {
+    font-size: 1rem;
+    padding: 5px;
+  }
   
+  .footer-item {
+    width: 60%;
+    text-align: center;
+  }
+  
+  .footer-head2 {
+    background-color: #7BB3C1;
+    border-bottom: 3px solid black;
+    border-radius: 7px;
+  }
+  
+  .footer-text {
+    border-bottom: .5px solid rgba(255,255,255,0.3);
+  }
 }
