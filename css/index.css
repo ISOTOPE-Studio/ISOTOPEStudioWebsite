@@ -34,7 +34,7 @@ header {
   height: 50px;
 }
 
-h1, h2, p, footer {
+h1, h2, p, #footer {
   font-family: "Arial", "等线", sans-serif;
   text-align: center;
 }
@@ -98,7 +98,7 @@ h1, h2, p, footer {
   background-color: aquamarine;
 }
 
-footer {
+#footer {
   text-align: center;
   line-height: 1.5;
   padding: 20px 0 10px;
@@ -106,7 +106,7 @@ footer {
   color: white;
 }
 
-footer .wrapper {
+#footer .wrapper {
   margin: 10px auto;
 }
 
@@ -198,7 +198,7 @@ SECTION SERVICE
   width: 110px;
   padding: 7px 0;
   border: 3px solid white;
-  border-radius: 20px;
+  border-radius: 50px;
   transition-duration: .5s;
 }
 
@@ -206,6 +206,11 @@ SECTION SERVICE
   background-color: cornflowerblue;
   border: 3px solid cornflowerblue;
   transition-duration: .5s;
+  border-radius: 0px;
+}
+
+#service-stack a {
+  display: block;
 }
 
 #stack-graphic {
