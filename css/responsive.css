@@ -78,7 +78,7 @@ PAGE: INDEX
   }
   
   .section {
-    clear: both;
+/*    clear: both;*/
     height: 500px;
   }
   
@@ -115,7 +115,7 @@ PAGE: INDEX
   }
   
   .section {
-    clear: both;
+/*    clear: both;*/
     height: auto;
   }  
   
@@ -130,7 +130,11 @@ PAGE: INDEX
   }
   
   #service-stack .stack {
-    padding-top: 40px;
-    height: 200px;
+    padding-top: 30px;
+    height: 170px;
+  }
+  
+  .link {
+    font-size: 0.75em;
   }
 }

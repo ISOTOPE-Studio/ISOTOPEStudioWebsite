@@ -23,12 +23,19 @@ a, a:visited, a:link {
   color: white;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 header {
   position: fixed;
+  z-index: 1;
   background: rgba(0,0,0,0.8);
   margin: 0;
   padding: 0;
-  float: left;
+/*  float: left;*/
   color: #fff;
   min-width: 100%;
   height: 50px;
@@ -50,9 +57,9 @@ h1, h2, p, #footer {
   background-size: 40px;
   background-position: 4% center;
   background-repeat: no-repeat;
-  padding: 10px 0px 10px 65px;
+  padding: 8px 0px 8px 65px;
   float: left;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 #nav-bar li {
@@ -67,7 +74,8 @@ h1, h2, p, #footer {
 }
 
 #nav-bar li {
-  display: inline-block;
+  float: left;
+/*  display: inline-block;*/
   width: 95px;
   text-align: center;
   list-style: none;
@@ -129,7 +137,7 @@ h1, h2, p, #footer {
 }
 
 #copyright {
-  clear: both;
+/*  clear: both;*/
   display: block;
   margin: 20px 0px 10px;
   color: rgb(200,200,200);
@@ -145,7 +153,7 @@ SECTION 1
 
 #section-1 {
   text-align: center;
-  clear: both;
+/*  clear: both;*/
   background: linear-gradient(#000, transparent 90%),
     linear-gradient(0deg, rgba(255,255,255,0.2) 40%,  transparent),
     black url('../img/index-section1.JPG') center no-repeat;
@@ -154,6 +162,35 @@ SECTION 1
 
 #section-1 h2 {
   color: white
+}
+
+figure {
+  position: relative;
+  display: block;
+  width: 80%;
+  margin: 50px auto;
+  line-height: 1.5;
+}
+
+figure h2 {
+  font-size: 2em;
+}
+
+figure p {
+  font-size: 1.2em;
+}
+
+.works-img {
+  width: 100%;
+}
+
+figcaption {
+  background-color: rgba(100,100,100,0.5);
+  padding-top: 10px;
+  position: absolute;
+  bottom: 0px;
+  height: 100px;
+  width: 100%;
 }
 
 /*
@@ -188,7 +225,7 @@ SECTION SERVICE
 }
 
 #service-stack:after {
-  clear: both;
+/*  clear: both;*/
 }
 
 #service-stack .button {
@@ -240,6 +277,19 @@ SECTION CONTACT
   background-image: url('../img/index-contact.JPG');
 }
 
-.link:link {
-  color: deepskyblue;
+.link a:link {
+  color: white;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 50px;
+  transition-duration: .5s;
+}
+
+.link a:hover {
+  color: white;
+  background-color: deepskyblue;
+  padding: 10px;
+  border: 3px solid deepskyblue;
+  border-radius: 0px;
+  transition-duration: .5s;
 }
