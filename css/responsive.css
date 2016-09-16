@@ -1,6 +1,7 @@
 /*
 GLOBAL LAYOUT
 */
+
 @media (max-width: 1080px) {
   .wrapper {
     margin: 0 1em;
@@ -9,57 +10,51 @@ GLOBAL LAYOUT
 
 @media (max-width: 960px) {
   header {
-    position: inherit;  
+    position: inherit;
     height: auto;
   }
-  
   #logo {
-    font-size: 1.5em;  
+    font-size: 1.5em;
     background-size: 0px;
     margin: 0 0px;
     padding: 5px 0 0;
     float: none;
     text-align: center;
   }
-  
   #nav-bar {
     float: none;
     text-align: center;
     padding: 10px 0px;
     height: auto;
   }
-  
   #nav-bar li {
     font-size: 1.1em;
     margin: 0 auto;
     display: block;
     text-align: center;
     float: none;
-    padding: 7px 0 0 0;
+    padding: 3px 0 0 0;
     height: 35px;
     width: 40%;
   }
-  
   #nav-bar li:hover {
     width: 80%;
     transition-timing-function: ease;
   }
-  
   .footer-item {
     width: 60%;
     text-align: center;
   }
-  
   .footer-head2 {
     background-color: #7BB3C1;
     border-bottom: 3px solid black;
     border-radius: 7px;
   }
-  
   .footer-text {
-    border-bottom: .5px solid rgba(255,255,255,0.3);
+    border-bottom: .5px solid rgba(255, 255, 255, 0.3);
   }
 }
+
 
 /*
 PAGE: INDEX
@@ -71,27 +66,22 @@ PAGE: INDEX
     height: 800px;
     font-size: 2em;
   }
-  
   #logo-s1 {
     max-height: 300px;
     margin-bottom: 40px;
   }
-  
   .section {
-/*    clear: both;*/
+    /*    clear: both;*/
     height: 500px;
   }
-  
   .section h2 {
     font-size: 3em;
     padding: 100px;
   }
-  
   .section p {
     font-size: 1.5em;
     color: white;
   }
-  
   #service-stack .stack {
     padding-top: 30%;
     display: inline-block;
@@ -108,32 +98,26 @@ PAGE: INDEX
     padding-top: 50px;
     padding-bottom: 20px;
   }
-  
   #logo-s1 {
     max-height: 200px;
     margin-bottom: 30px;
   }
-  
   .section {
-/*    clear: both;*/
+    /*    clear: both;*/
     height: auto;
-  }  
-  
+  }
   .section h2 {
     font-size: 1rem;
     padding: 5px;
   }
-  
   .section p {
     font-size: 1rem;
     padding: 5px;
   }
-  
   #service-stack .stack {
-    padding-top: 30px;
-    height: 170px;
+    padding-top: 50px;
+    height: 200px;
   }
-  
   .link {
     font-size: 0.75em;
   }

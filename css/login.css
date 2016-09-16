@@ -1,0 +1,26 @@
+body {
+  background-image: url('../img/IMG_3631.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  /* For 100% screen height */
+  width: 100vw;
+  /* For 100% screen width */
+}
+
+#main {
+  font-family: "等线";
+  line-height: 3;
+  padding: 20px 50px;
+  position: absolute;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  border-bottom: 7px solid lightblue;
+  border-right: 5px solid lightblue;
+  right: 10%;
+  top: calc(50vh - 200px);
+  height: 400px;
+  width: 400px;
+}

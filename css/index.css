@@ -1,6 +1,7 @@
 /*
 FONTS
 */
+
 @font-face {
   font-family: CenturyGothic;
   src: url('../fonts/CenturyGothic.TTF');
@@ -18,7 +19,9 @@ body {
   margin: 0;
 }
 
-a, a:visited, a:link {
+a,
+a:visited,
+a:link {
   text-decoration: none;
   color: white;
 }
@@ -32,16 +35,19 @@ a, a:visited, a:link {
 header {
   position: fixed;
   z-index: 1;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
   margin: 0;
   padding: 0;
-/*  float: left;*/
+  /*  float: left;*/
   color: #fff;
   min-width: 100%;
   height: 50px;
 }
 
-h1, h2, p, #footer {
+h1,
+h2,
+p,
+#footer {
   font-family: "Arial", "等线", sans-serif;
   text-align: center;
 }
@@ -62,11 +68,6 @@ h1, h2, p, #footer {
   font-size: 2rem;
 }
 
-#nav-bar li {
-  font-family: 'CenturyGothic', sans-seri;
-  font-weight: bolder;
-}
-
 #nav-bar {
   margin: 0;
   padding: 0;
@@ -74,16 +75,18 @@ h1, h2, p, #footer {
 }
 
 #nav-bar li {
+  font-family: 'CenturyGothic', sans-seri;
+  font-weight: bolder;
   float: left;
-/*  display: inline-block;*/
+  /*  display: inline-block;*/
   width: 95px;
   text-align: center;
   list-style: none;
   font-size: 1.2em;
-  padding: 14px 0 0 0;
+  padding: 7.5px 0 0 0;
   height: 50px;
   box-sizing: border-box;
-/*  background-color: rgba(0,100,255,0.4);*/
+  /*  background-color: rgba(0,100,255,0.4);*/
   color: whfite;
   margin: 0px 0px;
   transition-duration: .5s;
@@ -96,6 +99,7 @@ h1, h2, p, #footer {
 }
 
 #nav-bar li:active {
+  transform: rotateY(15deg);
   background-color: cadetblue;
   color: white;
   transition-duration: .5s;
@@ -104,6 +108,11 @@ h1, h2, p, #footer {
 #nav-bar .selected,
 #nav-bar .selected:hover {
   background-color: aquamarine;
+}
+
+#nav-bar a {
+  padding: 5px;
+  display: block;
 }
 
 #footer {
@@ -137,15 +146,17 @@ h1, h2, p, #footer {
 }
 
 #copyright {
-/*  clear: both;*/
+  /*  clear: both;*/
   display: block;
   margin: 20px 0px 10px;
-  color: rgb(200,200,200);
+  color: rgb(200, 200, 200);
 }
+
 
 /*
 INDEX PAGE
 */
+
 
 /*
 SECTION 1
@@ -153,10 +164,8 @@ SECTION 1
 
 #section-1 {
   text-align: center;
-/*  clear: both;*/
-  background: linear-gradient(#000, transparent 90%),
-    linear-gradient(0deg, rgba(255,255,255,0.2) 40%,  transparent),
-    black url('../img/index-section1.JPG') center no-repeat;
+  /*  clear: both;*/
+  background: linear-gradient(#000, transparent 70%), linear-gradient(0deg, rgba(255, 255, 255, 0.1) 40%, transparent), black url('../img/index-section1.JPG') center no-repeat;
   background-size: cover;
 }
 
@@ -184,8 +193,15 @@ figure p {
   width: 100%;
 }
 
+#aplus-logo {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  height: 60px;
+}
+
 figcaption {
-  background-color: rgba(100,100,100,0.5);
+  background-color: rgba(100, 100, 100, 0.5);
   padding-top: 10px;
   position: absolute;
   bottom: 0px;
@@ -193,13 +209,14 @@ figcaption {
   width: 100%;
 }
 
+
 /*
 SECTIONS
 */
 
 .section {
   height: 500px;
-  margin: 50px 0; 
+  margin: 50px 0;
 }
 
 .section h2 {
@@ -211,6 +228,7 @@ SECTIONS
   line-height: 2;
 }
 
+
 /*
 SECTION SERVICE
 */
@@ -221,11 +239,11 @@ SECTION SERVICE
 
 #service-stack {
   color: white;
-  margin: 50px 0; 
+  margin: 50px 0;
 }
 
 #service-stack:after {
-/*  clear: both;*/
+  /*  clear: both;*/
 }
 
 #service-stack .button {
@@ -255,22 +273,20 @@ SECTION SERVICE
 }
 
 #stack-editing {
-  
   background-image: url('../img/index-editing.JPG');
 }
 
 #stack-recording {
-  
   background-image: url('../img/index-recording.JPG');
 }
 
 #stack-plugin {
-  
   background-image: url('../img/index-plugin.JPG');
 }
 
+
 /*
-SECTION CONTACT
+SECTION CONTACT 
 */
 
 #contact {
