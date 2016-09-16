@@ -5,9 +5,14 @@
   <meta charset="utf-8">
   <title>ISOTOPE Studio | Design, Video, Software</title>
   <link rel="stylesheet" href="css/normalize.css">
+
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <link rel="stylesheet" href="css/test.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/responsive.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0 shrink-to-fit=no">
   <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
   <script>
     $(function () {
@@ -19,8 +24,18 @@
 
 
 <body>
+
   <header id="header" class="clearfix">
-    <div class="wrapper">
+    <div class="container clearfix">
+      <button type="button" class="btn btn-secondary btn-left">
+        <h4>HOME</h4></button>
+      <button type="button" class="btn btn-secondary btn-left">
+        <h4>SERVICE</h4></button>
+      <button type="button" class="btn btn-secondary btn-right">
+        <h4>DESIGN</h4></button>
+      <button type="button" class="btn btn-secondary btn-right">
+        <h4>VIDEO</h4></button>
+      <!--
       <h1 id="logo">ISOTOPE STUDIO</h1>
       <nav id="nav-bar">
         <ul>
@@ -31,114 +46,134 @@
           <li><a href="#">Minecraft</a></li>
         </ul>
       </nav>
+-->
     </div>
   </header>
 
   <section id="section-1">
-    <div class="wrapper">
-      <img src="img/logo.png" alt="logo of studio" id="logo-s1">
-      <h2>Welcome to</h2>
-      <h2>ISOTOPE STUDIO</h2>
+    <div class="container">
+      <img src="img/logo-p.svg" alt="logo of studio" id="logo-s1">
+      <h1 class="">WELCOME TO ISOTOPE STUDIO</h1>
+      <button type="button" class="btn btn-secondary">
+        <h4>REGISTER SERVICE</h4></button>
+      <button type="button" class="btn btn-secondary">
+        <h4>ABOUT US</h4></button>
     </div>
   </section>
-
-  <section id="news">
-    <div class="works wrapper">
-      <figure>
-        <img id="aplus-logo" src="img/icon-A%5Bcircle%5D.svg" alt="">
-        <img class="works-img" src="img/index-psych.png" alt="">
-        <figcaption>
-          <h2>A+</h2>
-          <p>网站</p>
-        </figcaption>
-      </figure>
-
-      <figure>
-        <img class="works-img" src="img/index-psych.png" alt="">
-        <figcaption>
-          <h2>无人机视频</h2>
-          <p>DJI</p>
-        </figcaption>
-      </figure>
-
-      <figure>
-        <img class="works-img" src="img/index-psych.png" alt="">
-        <figcaption>
-          <h2>印度</h2>
-          <p>Info</p>
-        </figcaption>
-      </figure>
-
-      <figure>
-        <img class="works-img" src="img/index-psych.png" alt="">
-        <figcaption>
-          <h2>深圳中学国际体系年鉴</h2>
-          <p>2016年6月13日正式发布</p>
-        </figcaption>
-      </figure>
-
-      <figure>
-        <img class="works-img" src="img/index-psych.png" alt="">
-        <figcaption>
-          <h2>Conformity</h2>
-          <p>Psychology Capstone Project</p>
-        </figcaption>
-      </figure>
-
-      <figure>
-        <img class="works-img" src="img/index-psych.png" alt="">
-        <figcaption>
-          <h2>2016哈佛/乔治城/伯克利冬季辩论赛视频</h2>
-          <!--            <p></p>-->
-        </figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <section id="service" class="section">
-    <div class="wrapper">
-      <h2>我们提供什么服务</h2>
-      <p>——致力于打造最具匠心的 宣传片 海报 微电影 网页 以及 你脑海之中的宇宙</p>
-    </div>
-  </section>
-
-  <section id="service-stack">
-    <div class="wrapper">
-      <div class="stack" id="stack-graphic">
-        <h2 class="subtitle">Graphic Design</h2>
-        <h2 class="subtitle">平面设计</h2>
-        <p class="button"><a href="#">设计作品</a></p>
+  <section id="cards" class="container">
+    <!--row 1-->
+    <a href="index.html" class="sticker-2 sticker-p1 sticker-p3" style="
+     background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-video-edit.JPG') center/cover no-repeat;">
+      <div class="sticker-container sticker-br">
+        <h3 class="">Video Editing</h3>
       </div>
-      <div class="stack" id="stack-editing">
-        <h2 class="subtitle">Video Editing</h2>
-        <h2 class="subtitle">视频剪辑</h2>
-        <p class="button"><a href="#">视频作品</a></p>
+      <div class="sticker-container sticker-bl">
+        <h4 class="">Service</h4>
       </div>
-      <div class="stack" id="stack-recording">
-        <h2 class="subtitle">Video Recording</h2>
-        <h2 class="subtitle">视频拍摄</h2>
-        <p class="button"><a href="#contact">预约服务</a></p>
-      </div>
-      <div class="stack" id="stack-plugin">
-        <h2 class="subtitle">Minecraft Plugin</h2>
-        <h2 class="subtitle">服务器插件制作</h2>
-        <p class="button"><a href="#">具体了解</a></p>
-      </div>
-    </div>
-  </section>
+    </a>
 
-  <section id="contact" class="section">
-    <div class="wrapper">
-      <h2>预约服务</h2>
-      <p>编辑邮箱，注明预约服务项目类型与联系方式，发送到</p>
-      <p class="link"><a href="mailto://ISOTOPEStudio@outlook.com">ISOTOPEStudio@outlook.com</a></p>
-      <p>我们的工作人员便会联系您</p>
-    </div>
+    <a href="index.html" class="sticker-1 sticker-p1" style="
+     background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-record.JPG') center/cover no-repeat;">
+      <div class="sticker-container sticker-bl">
+        <h3 class="">Filming</h3>
+      </div>
+      <div class="sticker-container sticker-tr">
+        <h4 class="">Service</h4>
+      </div>
+    </a>
+
+    <a href="index.html" class="sticker-1 sticker-p2" style="
+     background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-after-effect.JPG') center/cover no-repeat;">
+      <div class="sticker-container sticker-bl">
+        <h3 class="">After<br/>Effect</h3>
+      </div>
+    </a>
+
+    <!--row 2-->
+    <a href="index.html" class="sticker-1 sticker-p1" style="
+     background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-after-effect.JPG') center/cover no-repeat;">
+      <div class="sticker-container sticker-br">
+        <h3 class="">YouTube<br/>Channel</h3>
+      </div>
+    </a>
+
+    <a href="index.html" class="sticker-1 sticker-p1 sticker-p3" style="
+     background:  linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url('img/index-box-youku.JPG') center/cover no-repeat;">
+      <div class="sticker-container sticker-bl">
+        <h3 class="">Youku<br/>Channel</h3>
+      </div>
+    </a>
+
+    <a href="index.html" class="sticker-2 sticker-p2" style="
+     background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-documentary.JPG') center/cover no-repeat;">
+      <div class="sticker-container sticker-bl">
+        <h3 class="">Documentary</h3>
+      </div>
+      <div class="sticker-container sticker-tl">
+        <h4 class="">New!</h4>
+        <h4 class="">Make Difference 无人机微电影</h4>
+        <h4 class="">City Town老墟村记录片</h4>
+      </div>
+    </a>
+
+    <!--row 3-->
+    <a href="index.html" class="sticker-1 sticker-p1" style="
+     background:  linear-gradient(0deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.25)), url('img/index-box-gd.JPG') center/cover no-repeat;">
+      <div class="sticker-container sticker-tl">
+        <h3 class="">Graphic Design</h3>
+      </div>
+      <div class="sticker-container sticker-br">
+        <h4 class="">Service</h4>
+      </div>
+    </a>
+
+    <a href="index.html" class="sticker-1 sticker-p1 sticker-p3" style="
+     background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-yearbook.JPG') center/cover no-repeat;">
+      <div class="sticker-container sticker-tl">
+        <h3 class="">Yearbook</h3>
+      </div>
+    </a>
+
+    <a href="index.html" class="sticker-1 sticker-p1" style="
+     background:  linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('img/index-box-posters.JPG') center/cover no-repeat;">
+      <div class="sticker-container sticker-br">
+        <h3 class="">Posters</h3>
+      </div>
+    </a>
+
+    <a href="index.html" class="sticker-1 sticker-p2" style="
+     background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-soundmix.JPG') center/cover no-repeat;">
+      <div class="sticker-container sticker-bl">
+        <h3 class="">Sound<br/>Mixing</h3>
+      </div>
+    </a>
+
+    <!--row 4-->
+    <a href="index.html" class="sticker-2 sticker-p1 sticker-p3" style="
+     background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-minecraft.JPG') center/cover no-repeat;">
+      <div class="sticker-container sticker-bl">
+        <h3 class="">Minecraft<br/>Plugin</h3>
+      </div>
+      <div class="sticker-container sticker-tr">
+        <h4 class="">Service</h4>
+      </div>
+    </a>
+
+    <a href="index.html" class="sticker-2 sticker-p2" style="
+     background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-history.JPG') center/cover no-repeat;">
+      <div class="sticker-container sticker-bl">
+        <h3 class="">Our Story & Founders</h3>
+      </div>
+    </a>
+
   </section>
 
   <div id="footer"></div>
 
-  <!--    <script src="hello.js"></script>-->
+  <script src="lib/jquery.min.js"></script>
+  <script src="lib/tether.min.js"></script>
+  <script src="lib/bootstrap.min.js"></script>
+
 </body>
 
 </html>
