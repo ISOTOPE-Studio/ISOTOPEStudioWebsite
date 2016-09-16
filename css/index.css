@@ -88,7 +88,7 @@ header .btn {
 }
 
 header .btn * {
-  padding: 18px;
+  padding: 18px 0;
   line-height: 0;
   font-size: 1.em;
 }

@@ -9,10 +9,12 @@ GLOBAL LAYOUT
 }
 
 @media (max-width: 990px) {
+  /*
   header {
     position: inherit;
     height: auto;
   }
+*/
   #logo {
     font-size: 1.5em;
     background-size: 0px;
@@ -20,26 +22,6 @@ GLOBAL LAYOUT
     padding: 5px 0 0;
     float: none;
     text-align: center;
-  }
-  #nav-bar {
-    float: none;
-    text-align: center;
-    padding: 10px 0px;
-    height: auto;
-  }
-  #nav-bar li {
-    font-size: 1.1em;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    float: none;
-    padding: 3px 0 0 0;
-    height: 35px;
-    width: 40%;
-  }
-  #nav-bar li:hover {
-    width: 80%;
-    transition-timing-function: ease;
   }
   .footer-item {
     width: 60%;
@@ -52,6 +34,36 @@ GLOBAL LAYOUT
   }
   .footer-text {
     border-bottom: .5px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media (max-width: 540px) {
+  header {
+    /*    border-bottom: white solid 5px;*/
+    height: 40px;
+  }
+  header .btn {
+    width: 24%;
+    padding: 0;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    height: 40px;
+  }
+  header .btn * {
+    margin: 0;
+    padding: 11px 0;
+    line-height: 0;
+    font-size: 1.2em;
+  }
+  header .btn-left {
+    float: left;
+    margin-right: 1%;
+  }
+  header .btn-right {
+    float: right;
+    margin-left: 1%;
   }
 }
 
@@ -77,7 +89,7 @@ PAGE: INDEX
 
 @media (max-width: 990px) {
   #section-1 {
-    margin-top: -54px;
+    /*    margin-top: -54px;*/
     font-size: 1rem;
     height: auto;
     padding-top: 50px;
@@ -85,7 +97,7 @@ PAGE: INDEX
   }
   #logo-s1 {
     max-height: 200px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   #section-1 .btn {
     width: 75%;
