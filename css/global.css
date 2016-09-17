@@ -8,8 +8,13 @@ FONTS
 }
 
 @font-face {
-  font-family: MyriadPro;
+  font-family: MyriadPro-BoldCond;
   src: url('../fonts/MyriadPro-BoldCond.otf');
+}
+
+@font-face {
+  font-family: MyriadPro-Cond;
+  src: url('../fonts/MyriadPro-Cond.otf');
 }
 
 * {
@@ -61,11 +66,13 @@ a:link {
 h1,
 h2,
 h3,
-h4,
+h4 {
+  font-family: "MyriadPro-BoldCond", "等线", sans-serif;
+}
+
 p,
 #footer {
-  font-family: "MyriadPro", "等线", sans-serif;
-  text-align: center;
+  font-family: "MyriadPro-Cond", "等线", sans-serif;
 }
 
 #logo {
@@ -131,13 +138,11 @@ p,
 }
 
 .footer-head2 {
-  font-weight: bold;
+  font-family: "MyriadPro-BoldCond", "等线", sans-serif;
   margin: 5px 0;
 }
 
-.footer-text {
-  font-weight: lighter;
-}
+.footer-text {}
 
 #copyright {
   /*  clear: both;*/
