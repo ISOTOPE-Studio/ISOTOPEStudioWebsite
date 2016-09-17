@@ -120,8 +120,8 @@ p,
   text-align: center;
   line-height: 1.5;
   padding: 20px 0 10px;
-  background-color: #1A62AC;
-  color: white;
+  background-color: gainsboro;
+  /*  color: ;*/
 }
 
 #footer .wrapper {
@@ -137,6 +137,10 @@ p,
   margin: 0 2.28%;
 }
 
+.footer-item a {
+  color: #555;
+}
+
 .footer-head2 {
   font-family: "MyriadPro-BoldCond", "等线", sans-serif;
   margin: 5px 0;
@@ -147,8 +151,9 @@ p,
 #copyright {
   /*  clear: both;*/
   display: block;
+  line-height: 0.3;
   margin: 20px 0px 10px;
-  color: rgb(200, 200, 200);
+  color: rgb(150, 150, 150);
 }
 
 
@@ -170,7 +175,7 @@ GLOBAL LAYOUT
     text-align: center;
   }
   .footer-head2 {
-    background-color: #7BB3C1;
+    background-color: #cecece;
     border-bottom: 3px solid black;
     border-radius: 7px;
   }
