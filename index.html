@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <title>ISOTOPE Studio | Design, Video, Software</title>
 
+  <script src="lib/tether.min.js"></script>
   <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/animate.css">
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/service.css">
@@ -13,11 +15,12 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
   <script src="lib/jquery.min.js"></script>
+  <script src="lib/bootstrap.min.js"></script>
   <script>
     $(function () {
       $("#header").load("header.html");
       $("#footer").load("footer.html");
-    });
+    })
   </script>
 </head>
 
@@ -27,19 +30,20 @@
   <header id="header" class="clearfix">
   </header>
 
-  <section id="section-1">
+  <section id="hero">
     <div class="container">
       <img src="img/logo-p.svg" alt="logo of studio" id="logo-s1">
       <h1 class="">WELCOME TO ISOTOPE STUDIO</h1>
-      <button type="button" class="btn btn-secondary">
+      <button type="button" class="btn btn-secondary" data-toggle="popover" title="We have not yet finished this button" data-content="What to contact us? Please email: ISOTOPEStudio@outlook.com">
         <h4>REGISTER SERVICE</h4></button>
       <button type="button" class="btn btn-secondary">
         <h4>ABOUT US</h4></button>
+
     </div>
   </section>
-  <section id="cards" class="container">
+  <section id="cards" class="container stickers" style="a {visibility: hidden;}">
     <!--row 1-->
-    <a href="index.html" class="sticker-2 sticker-p1 sticker-p3" style="
+    <a href="index.html" class="sticker-row-1 sticker-2 sticker-p1 sticker-p3" style="
      background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-video-edit.JPG') center/cover no-repeat;">
       <div class="sticker-container sticker-bl">
         <h3 class="">Video Editing</h3>
@@ -49,7 +53,7 @@
       </div>
     </a>
 
-    <a href="index.html" class="sticker-1 sticker-p1" style="
+    <a href="index.html" class="sticker-row-1 sticker-1 sticker-p1" style="
      background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-record.JPG') center/cover no-repeat;">
       <div class="sticker-container sticker-bl">
         <h3 class="">Filming</h3>
@@ -59,7 +63,7 @@
       </div>
     </a>
 
-    <a href="index.html" class="sticker-1 sticker-p2" style="
+    <a href="index.html" class="sticker-row-1 sticker-1 sticker-p2" style="
      background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-after-effect.JPG') center/cover no-repeat;">
       <div class="sticker-container sticker-bl">
         <h3 class="">After<br/>Effect</h3>
@@ -67,21 +71,21 @@
     </a>
 
     <!--row 2-->
-    <a href="index.html" class="sticker-1 sticker-p1" style="
+    <a href="index.html" class="sticker-row-2 sticker-1 sticker-p1" style="
      background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-after-effect.JPG') center/cover no-repeat;">
       <div class="sticker-container sticker-bl">
         <h3 class="">YouTube<br/>Channel</h3>
       </div>
     </a>
 
-    <a href="index.html" class="sticker-1 sticker-p1 sticker-p3" style="
+    <a href="http://i.youku.com/isotopestudio" target="_blank" class="sticker-row-2 sticker-1 sticker-p1 sticker-p3" style="
      background:  linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url('img/index-box-youku.JPG') center/cover no-repeat;">
       <div class="sticker-container sticker-bl">
         <h3 class="">Youku<br/>Channel</h3>
       </div>
     </a>
 
-    <a href="index.html" class="sticker-2 sticker-p2" style="
+    <a href="index.html" class="sticker-row-2 sticker-2 sticker-p2" style="
      background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-documentary.JPG') center/cover no-repeat;">
       <div class="sticker-container sticker-bl">
         <h3 class="">Documentary</h3>
@@ -94,7 +98,7 @@
     </a>
 
     <!--row 3-->
-    <a href="design.html" class="sticker-1 sticker-p1" style="
+    <a href="design.html" class="sticker-row-3 sticker-1 sticker-p1" style="
      background:  linear-gradient(0deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.25)), url('img/index-box-gd.JPG') center/cover no-repeat;">
       <div class="sticker-container sticker-bl">
         <h3 class="">Graphic Design</h3>
@@ -104,21 +108,21 @@
       </div>
     </a>
 
-    <a href="index.html" class="sticker-1 sticker-p1 sticker-p3" style="
+    <a href="index.html" class="sticker-row-3 sticker-1 sticker-p1 sticker-p3" style="
      background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-yearbook.JPG') center/cover no-repeat;">
       <div class="sticker-container sticker-bl">
         <h3 class="">Yearbook</h3>
       </div>
     </a>
 
-    <a href="index.html" class="sticker-1 sticker-p1" style="
+    <a href="index.html" class="sticker-row-3 sticker-1 sticker-p1" style="
      background:  linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('img/index-box-posters.JPG') center/cover no-repeat;">
       <div class="sticker-container sticker-bl">
         <h3 class="">Posters</h3>
       </div>
     </a>
 
-    <a href="index.html" class="sticker-1 sticker-p2" style="
+    <a href="index.html" class="sticker-row-3 sticker-1 sticker-p2" style="
      background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-soundmix.JPG') center/cover no-repeat;">
       <div class="sticker-container sticker-bl">
         <h3 class="">Sound<br/>Mixing</h3>
@@ -126,7 +130,7 @@
     </a>
 
     <!--row 4-->
-    <a href="minecraft.html" class="sticker-2 sticker-p1 sticker-p3" style="
+    <a href="minecraft.html" class="sticker-row-4 sticker-2 sticker-p1 sticker-p3" style="
      background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-minecraft.JPG') center/cover no-repeat;">
       <div class="sticker-container sticker-bl">
         <h3 class="">Minecraft<br/>Plugin</h3>
@@ -136,7 +140,7 @@
       </div>
     </a>
 
-    <a href="index.html" class="sticker-2 sticker-p2" style="
+    <a href="index.html" class="sticker-row-4 sticker-2 sticker-p2" style="
      background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/index-box-history.JPG') center/cover no-repeat;">
       <div class="sticker-container sticker-bl">
         <h3 class="">Our Story & Founders</h3>
@@ -150,12 +154,68 @@
     <p id="" class="display-4" style="color: white">This page should be about our amazing videos...</p>
   </div>
 
-
   <div id="footer"></div>
 
-  <script src="lib/tether.min.js"></script>
-  <script src="lib/bootstrap.min.js"></script>
+  <script>
+    function getTop(clsName) {
+      var obj = document.getElementsByClassName(clsName)[0];
+      return obj.getBoundingClientRect().top;
+    }
 
+    function getDom(clsName) {
+      var obj = document.getElementsByClassName(clsName);
+      return obj;
+    }
+
+    window.addEventListener('scroll', function () {
+      var scrollT = document.documentElement.scrollTop || document.body.scrollTop;
+
+      console.log(getTop('stickers'));
+      if (getTop('stickers') < 400) {
+        var dom = getDom('sticker-row-1');
+        for (var i = 0; i < dom.length; i++) {
+          dom[i].style.visibility = "visible";
+          dom[i].classList.add('animated');
+          dom[i].classList.add('fadeIn');
+          console.log('Finished' + i);
+        }
+      }
+      if (getTop('stickers') < 0) {
+        var dom = getDom('sticker-row-2');
+        for (var i = 0; i < dom.length; i++) {
+          dom[i].style.visibility = "visible";
+          dom[i].classList.add('animated');
+          dom[i].classList.add('fadeIn');
+          console.log('Finished' + i);
+        }
+      }
+      if (getTop('stickers') < -100) {
+        var dom = getDom('sticker-row-3');
+        for (var i = 0; i < dom.length; i++) {
+          dom[i].style.visibility = "visible";
+          dom[i].classList.add('animated');
+          dom[i].classList.add('fadeIn');
+          console.log('Finished' + i);
+        }
+      }
+      if (getTop('stickers') < -200) {
+        var dom = getDom('sticker-row-4');
+        for (var i = 0; i < dom.length; i++) {
+          dom[i].style.visibility = "visible";
+          dom[i].classList.add('animated');
+          dom[i].classList.add('fadeIn');
+          console.log('Finished' + i);
+        }
+      }
+    })
+  </script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+      $("[data-toggle='popover']").popover();
+    })
+  </script>
 </body>
 
 </html>

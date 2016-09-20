@@ -7,7 +7,7 @@ INDEX PAGE
 SECTION 1
 */
 
-#section-1 {
+#hero {
   text-align: center;
   background: url('../img/index-section1.JPG') center no-repeat;
   background-size: cover;
@@ -20,20 +20,20 @@ SECTION 1
   transition: 0.5s;
 }
 
-#section-1 .btn {
+#hero .btn {
   width: 25%;
   height: 40px;
   border-radius: 0;
   border: 0;
 }
 
-#section-1 .btn:hover {
+#hero .btn:hover {
   background-color: deepskyblue;
   border: 0;
   color: white;
 }
 
-#section-1 .btn * {
+#hero .btn * {
   padding: 14px;
   line-height: 0;
   font-size: 1.em;
@@ -127,7 +127,7 @@ SECTION 1
 }
 
 @media (min-width: 991px) {
-  #section-1 {
+  #hero {
     padding-top: 200px;
     height: 750px;
     font-size: 2em;
@@ -142,7 +142,7 @@ SECTION 1
 }
 
 @media (max-width: 990px) {
-  #section-1 {
+  #hero {
     /*    margin-top: -54px;*/
     font-size: 1rem;
     height: auto;
@@ -153,7 +153,7 @@ SECTION 1
     max-height: 200px;
     margin-bottom: 20px;
   }
-  #section-1 .btn {
+  #hero .btn {
     width: 75%;
     margin-right: 0;
     margin-bottom: 10px;
@@ -179,7 +179,7 @@ SECTION 1
   }
 }
 
-#section-1 h1 {
+#hero h1 {
   animation: 1s rainbow infinite;
 }
 
@@ -229,4 +229,8 @@ SECTION 1
   100% {
     transform: scale(1);
   }
+}
+
+#cards a {
+  visibility: hidden;
 }
