@@ -151,16 +151,21 @@ p,
   margin: 5px 0;
 }
 
-.footer-text {}
+.footer-text {
+  text-decoration: underline;
+}
 
 #copyright {
   /*  clear: both;*/
   display: block;
-  line-height: 0.3;
+  line-height: 1;
   margin: 20px 0px 10px;
   color: rgb(150, 150, 150);
 }
 
+#copyright p {
+  margin: 5px 0;
+}
 
 /*
 GLOBAL LAYOUT

@@ -1,0 +1,50 @@
+video {
+  width: 100%;
+}
+
+#hero {
+  height: auto;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), transparent 90%);
+  position: relative;
+}
+
+#hero h1 {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-shadow: 0 0 5px #bbb, 0 0 10px #ccc, 0 0 15px #ddd;
+  color: white;
+}
+
+@media (max-width: 540px) {
+  header {
+    top: 0px;
+  }
+  #hero {
+    margin-top: 45px;
+  }
+  #hero h1 {
+    font-size: 1em;
+    /*    top: 50%;*/
+    bottom: 50px;
+  }
+}
+
+@media (max-width: 990px) {
+  header {
+    top: 0px;
+  }
+  #hero {
+    margin-top: 45px;
+  }
+  #hero h1 {
+    font-size: 2.5em;
+    /*    top: 40%;*/
+    bottom: 50px;
+  }
+}

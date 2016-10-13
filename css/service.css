@@ -61,3 +61,158 @@
     opacity: 0;
   }
 }
+
+.box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 70vh;
+  width: 100vw;
+}
+
+.box:hover > .section {
+  -webkit-filter: brightness(22%);
+  filter: brightness(22%);
+}
+
+.box:hover > .section:hover {
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%);
+}
+
+.box .section {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  position: relative;
+  height: 100%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.box .section .cont_title {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.box .section .cont_title h1 {
+  text-transform: uppercase;
+  color: white;
+  /*  font-family: 'Economica', sans-serif;*/
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  font-size: 3vw;
+  margin: 0;
+  -webkit-transition: font-size 0.3s;
+  transition: font-size 0.3s;
+  vertical-align: middle;
+}
+
+.box .section .cont_title h3 {
+  text-transform: uppercase;
+  /*  font-family: 'Economica', sans-serif;*/
+  font-size: 1.3vw;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.box .section .cont_desc {
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 60%;
+  height: auto;
+  margin: auto;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+  padding-top: 5vh;
+}
+
+.box .section .cont_desc p {
+  margin: 0;
+  font-family: 'Economica', sans-serif;
+  color: white;
+  font-size: 25px;
+}
+
+.box .section:hover {
+  -webkit-box-flex: 1.8;
+  -webkit-flex-grow: 1.8;
+  -ms-flex-positive: 1.8;
+  flex-grow: 1.8;
+  -webkit-transition: -webkit-box-flex 0.4s, -webkit-flex 0.4s;
+  transition: -webkit-box-flex 0.4s, -webkit-flex 0.4s;
+  transition: flex 0.4s;
+  transition: flex 0.4s, -webkit-box-flex 0.4s, -webkit-flex 0.4s, -ms-flex 0.4s;
+}
+
+.box .section:hover > .cont_title h1 {
+  font-size: 3.7vw;
+  -webkit-transition: font-size 0.4s;
+  transition: font-size 0.4s;
+}
+
+.box .section:hover > .cont_title h3 {
+  font-size: 1.6vw;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.box .section:hover > .cont_desc {
+  opacity: 1;
+  padding-top: 4vh;
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+  -webkit-transition: opacity 0.8s, padding-top 0.4s;
+  transition: opacity 0.8s, padding-top 0.4s;
+}
+
+.box .section:nth-child(1) {
+  background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Kenai-desktop.jpg") center;
+}
+
+.box .section:nth-child(2) {
+  background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Hawaii-desktop.jpg") center;
+}
+
+.box .section:nth-child(3) {
+  background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/de0b954d-ca76-41d3-ac3a-900c6bc25139.jpg") center;
+}
+
+.box .section:nth-child(4) {
+  background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Bryce-desktop.jpg") center;
+}
+
+.box .section:nth-child(5) {
+  background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Tortugas-desktop.jpg") center;
+}
