@@ -7,7 +7,7 @@ INDEX PAGE
 SECTION 1
 */
 
-#hero {
+.hero {
   text-align: center;
   background: url('../img/index-section1.JPG') center no-repeat;
   background-size: cover;
@@ -20,28 +20,59 @@ SECTION 1
   transition: 0.5s;
 }
 
-#hero .btn {
-  color: black;
-  width: 25%;
-  height: 40px;
+.btn {
   border-radius: 0;
   border: 0;
 }
 
-#hero .btn:hover {
+.hero .main-btn {
+  color: black;
+  width: 25%;
+  height: 40px;
+}
+
+.hero .main-btn:hover {
   background-color: deepskyblue;
   border: 0;
   color: white;
 }
 
-#hero .btn * {
+.hero .btn * {
   padding: 14px;
   line-height: 0;
   font-size: 1.em;
 }
 
-#learn-btn:hover {
-  background-color: greenyellow;
+.btn:hover {
+  border: 0;
+  color: white;
+}
+
+.inside-btn {
+  transition-duration: .5s;
+  height: 30px;
+  border: 0;
+  background-color: white;
+}
+
+.inside-btn * {
+  padding: 0px;
+  font-size: .7em;
+  padding: 5px 10px;
+}
+
+.inside-btn:hover {
+  color: white;
+  transition-duration: .5s;
+  border: 0;
+}
+
+.learn-btn:hover {
+  background-color: green;
+}
+
+.email-btn:hover {
+  background-color: mediumvioletred;
 }
 
 #cards {
@@ -130,15 +161,13 @@ SECTION 1
   text-align: right;
 }
 
-#versionSwitch {}
-
 #versionSwitch .btn {
   width: 25%;
   height: 40px;
 }
 
 @media (min-width: 991px) {
-  #hero {
+  .hero {
     padding-top: 200px;
     height: 750px;
     font-size: 2em;
@@ -153,7 +182,7 @@ SECTION 1
 }
 
 @media (max-width: 990px) {
-  #hero {
+  .hero {
     /*    margin-top: -54px;*/
     font-size: 1rem;
     height: auto;
@@ -164,10 +193,22 @@ SECTION 1
     max-height: 200px;
     margin-bottom: 20px;
   }
-  #hero .btn {
+  .hero .main-btn {
     width: 75%;
     margin-right: 0;
     margin-bottom: 10px;
+  }
+  .hero .btn {
+    /*    padding-left: 0;*/
+  }
+  .hero .collapse {
+    margin-bottom: 10px;
+  }
+  .inside-btn {
+    height: 25px;
+  }
+  .inside-btn * {
+    font-size: 0.9em;
   }
   .sticker-p1 {
     margin-right: 2%;
@@ -195,7 +236,7 @@ SECTION 1
   }
 }
 
-#hero h1 {
+.hero h1 {
   animation: 1s rainbow infinite;
 }
 

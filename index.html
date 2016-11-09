@@ -44,31 +44,30 @@
 
   <header id="header" class="clearfix"></header>
 
-  <section id="hero">
+  <section class="hero">
     <div class="container">
       <img src="img/logo-p.svg" alt="logo of studio" id="logo-s1">
       <h1 class="">WELCOME TO ISOTOPE STUDIO</h1>
-<!--
+      <!--
       <button type="button" class="btn btn-secondary" data-toggle="popover" title="We have not yet finished this button" data-content="What to contact us? Please email: ISOTOPEStudio@outlook.com" data-placement="bottom">
         <h4>REGISTER SERVICE</h4></button>
       <button type="button" class="btn btn-secondary">
         <h4>ABOUT US</h4></button>
 -->
-   <a type="button" class="btn btn-secondary" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-        <h4>REGISTER SERVICE</h4></a>
-      <a type="button" class="btn btn-secondary">
-        <h4>ABOUT US</h4></a>
-    </div>
-     <div class="collapse" id="collapseExample">
-      <div class="">
-        <p>
-          <button type="button" class="btn btn-secondary inside-btn" id="learn-btn">
+      <button type="button" class="btn btn-secondary main-btn" data-toggle="collapse" data-target="#collapseService" aria-expanded="false" aria-controls="collapseService">
+        <h4>REGISTER SERVICE</h4></button>
+      <div class="collapse" id="collapseService">
+        <div class="">
+          <button href="service.html" type="button" class="inside-btn learn-btn" onclick="location.href='service.html'">
             <h4>Learn more</h4></button>
-            <button type="button" class="btn btn-secondary inside-btn" id="email-btn">
+          <button type="button" class="inside-btn  email-btn" onclick="location.href='mailto:isotopestudio@outlook.com?subject=Service Request&body=Put your name, type of service, and more useful information here ;-)'">
             <h4>Send Email</h4></button>
-        </p>
+        </div>
       </div>
+      <button type="button" class="btn btn-secondary main-btn about-btn">
+        <h4>ABOUT US</h4></button>
     </div>
+
   </section>
 
   <section id="cards" class="container stickers" style="a {visibility: hidden;}">
@@ -185,62 +184,6 @@
   </div>
 
   <div id="footer"></div>
-
-  <!--
-  <script>
-    function getTop(clsName) {
-      var obj = document.getElementsByClassName(clsName)[0];
-      return obj.getBoundingClientRect().top;
-    }
-
-    function getDom(clsName) {
-      var obj = document.getElementsByClassName(clsName);
-      return obj;
-    }
-
-    window.addEventListener('scroll', function () {
-      var scrollT = document.documentElement.scrollTop || document.body.scrollTop;
-
-      console.log(getTop('stickers'));
-      if (getTop('stickers') < 400) {
-        var dom = getDom('sticker-row-1');
-        for (var i = 0; i < dom.length; i++) {
-          dom[i].style.visibility = "visible";
-          dom[i].classList.add('animated');
-          dom[i].classList.add('fadeIn');
-          console.log('Finished' + i);
-        }
-      }
-      if (getTop('stickers') < 0) {
-        var dom = getDom('sticker-row-2');
-        for (var i = 0; i < dom.length; i++) {
-          dom[i].style.visibility = "visible";
-          dom[i].classList.add('animated');
-          dom[i].classList.add('fadeIn');
-          console.log('Finished' + i);
-        }
-      }
-      if (getTop('stickers') < -100) {
-        var dom = getDom('sticker-row-3');
-        for (var i = 0; i < dom.length; i++) {
-          dom[i].style.visibility = "visible";
-          dom[i].classList.add('animated');
-          dom[i].classList.add('fadeIn');
-          console.log('Finished' + i);
-        }
-      }
-      if (getTop('stickers') < -200) {
-        var dom = getDom('sticker-row-4');
-        for (var i = 0; i < dom.length; i++) {
-          dom[i].style.visibility = "visible";
-          dom[i].classList.add('animated');
-          dom[i].classList.add('fadeIn');
-          console.log('Finished' + i);
-        }
-      }
-    })
-  </script>
--->
 
   <script>
     $(function () {

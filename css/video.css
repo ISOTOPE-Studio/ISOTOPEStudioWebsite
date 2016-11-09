@@ -2,13 +2,13 @@ video {
   width: 100%;
 }
 
-#hero {
+.hero {
   height: auto;
   background-image: linear-gradient(to top, rgba(255, 255, 255, 0), transparent 90%);
   position: relative;
 }
 
-#hero h1 {
+.hero h1 {
   position: absolute;
   text-align: center;
   margin: auto;
@@ -25,10 +25,10 @@ video {
   header {
     top: 0px;
   }
-  #hero {
+  .hero {
     margin-top: 45px;
   }
-  #hero h1 {
+  .hero h1 {
     font-size: 1em;
     /*    top: 50%;*/
     bottom: 50px;
@@ -39,10 +39,10 @@ video {
   header {
     top: 0px;
   }
-  #hero {
+  .hero {
     margin-top: 45px;
   }
-  #hero h1 {
+  .hero h1 {
     font-size: 2.5em;
     /*    top: 40%;*/
     bottom: 50px;
