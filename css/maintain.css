@@ -1,0 +1,63 @@
+#test-1 {
+  animation: 10s run-1 infinite;
+}
+
+#test1:after {
+  content: "test"
+}
+
+#test-2 {
+  animation: 10s run-2 infinite;
+}
+
+#test-3 {
+  animation: 10s run-3 infinite;
+}
+
+@keyframes run-1 {
+  0% {
+    opacity: 0;
+  }
+  16.7% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes run-2 {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  66.6% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes run-3 {
+  0% {
+    opacity: 0;
+  }
+  66.6% {
+    opacity: 0;
+  }
+  83.27% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -21,6 +21,7 @@ SECTION 1
 }
 
 #hero .btn {
+  color: black;
   width: 25%;
   height: 40px;
   border-radius: 0;
@@ -39,9 +40,12 @@ SECTION 1
   font-size: 1.em;
 }
 
+#learn-btn:hover {
+  background-color: greenyellow;
+}
+
 #cards {
-  padding: 20px 0px;
-  background-color: rgba(0, 0, 0, .1);
+  padding: 20px 0px
 }
 
 .sticker-p1 {
@@ -126,9 +130,7 @@ SECTION 1
   text-align: right;
 }
 
-#versionSwitch {
-  
-}
+#versionSwitch {}
 
 #versionSwitch .btn {
   width: 25%;
