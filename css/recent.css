@@ -1,6 +1,15 @@
+.hero {
+  background-image: url("../img/recent-hero.png");
+}
+
 .card {
-  color: white;
   text-align: center;
+  /*  height: 500px;*/
+}
+
+.card .container {
+  margin-top: 50px;
+  color: black;
 }
 
 @media (min-width: 544px) {
