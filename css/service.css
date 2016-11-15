@@ -1,22 +1,8 @@
 .hero {
-  background-image: url("../img/service-hero.JPG");
-}
-
-.hero a {
-  color: black;
-}
-
-#collapseService {
-  color: black;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-#collapseService .inside-btn {
-  width: 10%;
+  background-image: url("../img/service-hero2.JPG");
 }
 
 .card {
-  /*  height: 500px;*/
   text-align: center;
   margin: 0;
   padding-bottom: 50px;
@@ -52,12 +38,8 @@
   margin-top: 90px;
 }
 
-#vr img {
+.card img {
   width: 70%;
-}
-
-#ve img {
-  width: 70px;
 }
 
 @media (min-width: 544px) {
@@ -81,9 +63,6 @@
   h1 {
     font-size: 3em;
   }
-  .card {
-    height: auto;
-  }
   .card h1 {
     margin-top: 20px;
     font-size: 2rem;
@@ -91,20 +70,11 @@
   .card .btn {
     width: 160px;
   }
-  .content-div {
-    margin-top: 20px;
-  }
-  #vr div div {
+  .card div div {
     display: inline-block;
     width: 40%;
   }
-  #vr img {
+  .card img {
     width: 100%;
-  }
-  #ve img {
-    width: 50px;
-  }
-  .content-div div {
-    margin-top: 40px;
   }
 }
