@@ -1,0 +1,157 @@
+.hero {
+  height: auto;
+}
+
+.hero {
+  padding: 70px 0;
+}
+
+.hero .container {
+  margin-top: 100px;
+}
+
+.logo-gif {
+  text-align: center;
+}
+
+.miku {
+  width: 100%;
+}
+
+#HAIR_R {
+  animation: 5s rotate2 infinite;
+}
+
+#HAIR_L {
+  animation: 5.5s rotate1 infinite;
+}
+
+#EYE_L,
+#EYE_R {
+  animation: 5s scale1 infinite;
+  transform-origin: 0% 20%;
+}
+
+.HEAD {
+  animation: 5.5s headrotate infinite;
+  transform-origin: 550px 570px;
+}
+
+.miku {
+  margin-bottom: -5px;
+  position: relative;
+}
+
+#TIE {
+  animation: 5s tierotate infinite;
+  transform-origin: 550px 570px;
+}
+
+.miku-intro {
+  top: 150px;
+  right: 100px;
+  z-index: -99;
+  color: gainsboro;
+  position: absolute;
+}
+
+@media (max-width: 990px) {
+  .miku-intro {
+    top: 100px;
+    right: 50px;
+  }
+}
+
+@media (max-width: 540px) {
+  .miku-intro {
+    top: 0px;
+    right: 10px;
+  }
+}
+
+@keyframes headrotate {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes tierotate {
+  0% {
+    transform: rotate(-1deg);
+  }
+  50% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(-1deg);
+  }
+}
+
+@keyframes bounce2 {
+  0% {
+    top: 0;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    top: 200px;
+    animation-timing-function: ease-out;
+  }
+  100% {
+    top: 70px;
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes rotate1 {
+  0% {
+    transform: rotate(-10deg);
+    transform-origin: 400px 170px;
+  }
+  45% {
+    transform: rotate(10deg);
+    transform-origin: 400px 170px;
+  }
+  100% {
+    transform: rotate(-10deg);
+    transform-origin: 400px 170px;
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+    transform: rotate(-11deg);
+    transform-origin: 700px 170px;
+  }
+  55% {
+    transform: rotate(5deg);
+    transform-origin: 700px 170px;
+  }
+  100% {
+    transform: rotate(-11deg);
+    transform-origin: 700px 170px;
+  }
+}
+
+@keyframes scale1 {
+  0% {
+    transform: scale(1, 1);
+  }
+  47% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1, 0);
+  }
+  53% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
