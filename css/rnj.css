@@ -1,0 +1,13 @@
+.hero {
+  padding: 20px;
+  height: auto;
+  background: none;
+  background-color: aliceblue;
+}
+
+.hero img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}

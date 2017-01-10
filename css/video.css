@@ -58,6 +58,11 @@ p {
   margin: 0;
 }
 
+p::selection {
+  background-color: lightblue;
+  color: aliceblue;
+}
+
 @media (max-width: 540px) {
   header {
     top: 0px;

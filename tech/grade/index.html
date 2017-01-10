@@ -31,12 +31,24 @@
           <h2>如果你想要A</h2>
           <h3>(成绩>=89.5) </h3>
           <p>期末请至少拿到</p>
-          <p class="result" id="result1">ERROR</p>
-
+          <div class="result-div">
+            <p class="result" id="result1">ERROR</p>
+            <p class="result">%</p>
+          </div>
           <h2>如果你想要B</h2>
           <h3>(成绩>=79.5) </h3>
           <p>期末请至少拿到</p>
-          <p class="result" id="result2">ERROR</p>
+          <div class="result-div">
+            <p class="result" id="result2">ERROR</p>
+            <p class="result">%</p>
+          </div>
+          <h2>如果你想要C</h2>
+          <h3>(成绩>=69.5) </h3>
+          <p>期末请至少拿到</p>
+          <div class="result-div">
+            <p class="result" id="result3">ERROR</p>
+            <p class="result">%</p>
+          </div>
           <p>数据仅供参考。请合理安排时间复习</p>
         </div>
         <div class="modal-footer">
@@ -54,12 +66,18 @@
 
       var result1 = document.getElementById("result1");
       var result2 = document.getElementById("result2");
+      var result3 = document.getElementById("result3");
       var score = document.getElementById('score').value / 100;
       var percent = document.getElementById('percent').value / 100;
       if (score == "" || percent == "") {
         document.getElementById("error").style.display = "block";
+        document.getElementById("error2").style.display = "none";
+      } else if (score <= 0 || score >= 1.5 || percent <= 0 || percent > 1) {
+        document.getElementById("error").style.display = "none";
+        document.getElementById("error2").style.display = "block";
       } else {
         document.getElementById("error").style.display = "none";
+        document.getElementById("error2").style.display = "none";
         var result = (0.895 - score * (1 - percent)) / percent;
         if (result > .90) {
           result1.style.color = "#FF0033";
@@ -90,6 +108,22 @@
           result2.style.color = "#66FF66";
         } else {
           result2.style.color = "#33FFCC";
+        }
+        result = (0.695 - score * (1 - percent)) / percent;
+        result3.innerHTML = Math.round(parseFloat(result * 100) * 100) / 100;
+
+        if (result > .90) {
+          result3.style.color = "#FF0033";
+        } else if (result > .80) {
+          result3.style.color = "#FF0066"
+        } else if (result > .60) {
+          result3.style.color = "#CCFF66";
+        } else if (result > .40) {
+          result3.style.color = "#009933";
+        } else if (result > .20) {
+          result3.style.color = "#66FF66";
+        } else {
+          result3.style.color = "#33FFCC";
         }
         $('#modal').modal('show');
       }
@@ -124,6 +158,7 @@
     </form>
 
     <p id="error" style="display: none; color: red;">填完数据！！</p>
+    <p id="error2" style="display: none; color: red;">有意思吗</p>
 
     <button class="btn material-btn_primary material-btn_lg" onclick="javascript:onClick();">计算</button>
 

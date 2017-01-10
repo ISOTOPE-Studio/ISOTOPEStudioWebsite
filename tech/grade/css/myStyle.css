@@ -23,9 +23,13 @@ small {
 }
 
 .result {
+  padding-left: 20px;
   font-size: 5em;
-  color: green;
+  display: inline;
   text-align: center;
+}
+
+.result-div {
   background-color: gainsboro;
 }
 
