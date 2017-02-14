@@ -10,4 +10,25 @@
   display: block;
   margin: 0 auto;
   margin-top: 50px;
+  animation: 3s appear forwards;
+  animation-timing-function: cubic-bezier(.02, .52, 0, .94);
+  transition: 0.5s;
+}
+
+.youku_logo {
+  width: 200px;
+}
+
+.cast {
+  line-height: 0.6;
+}
+
+.character {
+  font-weight: 700;
+}
+
+a,
+a:visited,
+a:link {
+  color: darkblue;
 }

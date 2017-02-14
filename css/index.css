@@ -83,20 +83,28 @@ SECTION 1
   margin-right: 1%;
   margin-bottom: 1%;
   transition: 0.5s;
+  overflow: hidden;
 }
 
 .sticker-p1:hover,
 .sticker-p2:hover {
-  /*  transform: scale(0.97);*/
   animation: 1s scale infinite;
   transform-origin: center;
   transition: 0.5s;
+}
+
+.sticker-p1:hover > .sticker-container,
+.sticker-p2:hover > .sticker-container {
+  color: orangered;
+  transition: 0.5s;
+  text-shadow: black 0 0 5px;
 }
 
 .sticker-p2 {
   margin-left: 0%;
   margin-bottom: 1%;
   transition: 0.5s;
+  overflow: hidden;
 }
 
 .sticker-1 {
@@ -122,6 +130,7 @@ SECTION 1
   display: block;
   position: absolute;
   padding: 25px;
+  transition: 0.5s;
 }
 
 .sticker-container * {

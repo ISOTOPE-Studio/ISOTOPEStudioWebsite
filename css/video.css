@@ -13,7 +13,7 @@ video {
   text-align: center;
   margin: auto;
   position: absolute;
-  top: 30%;
+  top: 60%;
   left: 0;
   bottom: 0;
   right: 0;
@@ -21,12 +21,84 @@ video {
   color: white;
 }
 
+.hero img {
+  height: 150px;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: -20%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
+  filter: invert();
+}
+
+.video-block:hover > .video-info {
+  top: -10%;
+  transition: .5s;
+}
+
+.video-block:hover > .video-img {
+  transition: .5s;
+  opacity: 0.1;
+  transform: scale(1.2);
+}
+
+.video-block {
+  position: relative;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.video-img {
+  width: 100%;
+  transition: .5s;
+}
+
+.video-info {
+  margin: 50px;
+  position: absolute;
+  z-index: 50;
+  top: 100%;
+  transition: .5s;
+}
+
+.title {
+  height: 400px;
+  padding: 0 40px;
+  padding-top: 250px;
+}
+
 .text-title {
+  text-align: center;
   margin-top: 1em;
   margin-bottom: .5em;
   border-left: 10px lightblue solid;
   padding: 15px;
-  background-color: rgb(240, 240, 240);
+  background-color: rgba(240, 240, 240, .5);
+}
+
+.video-link {
+  text-align: right;
+}
+
+.youku-logo {
+  height: 30px;
+  margin-right: 2%;
+}
+
+.youtube-logo {
+  height: 25px;
+}
+
+.inline {
+  display: inline;
+}
+
+.no-padding {
+  padding: 0;
 }
 
 .tag {
@@ -37,13 +109,14 @@ video {
 
 .text-time {
   color: gray;
-  margin: 0;
+  margin: 0
 }
 
 .text-intro {
   font-size: 1.2em;
   margin: 1em 0;
   /*  font-family: ;*/
+  display: block;
 }
 
 h3 {
@@ -63,20 +136,49 @@ p::selection {
   color: aliceblue;
 }
 
-@media (max-width: 540px) {
-  header {
-    top: 0px;
-  }
-  .hero {
-    margin-top: 45px;
-  }
-  .hero h1 {
-    font-size: 1em;
-    /*    top: 50%;*/
-    bottom: 50px;
-  }
+@media (max-width: 1200px) {
   .text-title {
-    font-size: 1.8em;
+    font-size: 1.5rem;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding: 8px;
+  }
+  .tag {
+    font-size: .7rem;
+  }
+  .text-time {
+    font-size: .7rem;
+  }
+  .text-intro {
+    font-size: 1em;
+    margin: .5em 0;
+  }
+  h3 {
+    background-color: gray;
+    color: white;
+    padding: .05em .2em;
+    font-size: 1.1em;
+    margin: 0;
+  }
+  p {
+    margin: 0;
+    font-size: .7em;
+  }
+}
+
+#rotate-warning {
+  display: none;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
@@ -91,5 +193,87 @@ p::selection {
     font-size: 2.5em;
     /*    top: 40%;*/
     bottom: 50px;
+  }
+  .hero img {
+    height: 100px;
+  }
+  .text-title {
+    font-size: 1.1rem;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding: 5px;
+  }
+  .tag {
+    font-size: .6rem;
+  }
+  .text-time {
+    font-size: .6rem;
+  }
+  .text-intro {
+    font-size: .7em;
+    margin: .5em 0;
+  }
+  h3 {
+    background-color: gray;
+    color: white;
+    padding: .05em .2em;
+    font-size: .9em;
+    margin: 0;
+  }
+  p {
+    margin: 0;
+    font-size: .5em;
+  }
+}
+
+@media (max-width: 540px) {
+  header {
+    top: 0px;
+  }
+  .hero {
+    margin-top: 45px;
+  }
+  .hero h1 {
+    font-size: 1em;
+    /*    top: 50%;*/
+    bottom: 50px;
+  }
+  .hero img {
+    height: 50px;
+  }
+  .text-title {
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: .5em;
+    border-left: none;
+    padding: 15px;
+    background-color: rgba(240, 240, 240, .5);
+  }
+  .detailed-info {
+    display: none;
+  }
+  .tag-time {
+    text-align: center;
+  }
+  .video-link {
+    text-align: center;
+  }
+  .video-info {
+    width: 100%;
+    margin: 50px 10px;
+  }
+  #rotate-warning {
+    width: 50%;
+    position: fixed;
+    z-index: 999;
+    display: block;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    animation: 5s linear fadeOut;
+    animation-fill-mode: forwards;
   }
 }

@@ -1,0 +1,90 @@
+.hero {
+  background-image: url("../img/service-gd.jpg");
+}
+
+.hero img {
+  filter: invert();
+}
+
+#yearbook-hero {
+  background-image: url("../img/yearbook-20.jpg");
+  padding-top: 330px;
+}
+
+#yearbook-hero .btn {
+  background-color:
+}
+
+#poster-hero {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/design-poster.PNG") center/cover no-repeat;
+  padding-top: 200px;
+}
+
+#poster-hero h2 {
+  font-size: 2em;
+  text-shadow: 0 0 10px #000, 0 0 30px #000, 0 0 40px #000;
+}
+
+.container {
+  padding: 0;
+}
+
+.posters {
+  margin-top: 50px;
+}
+
+.poster {
+  margin: 0;
+  width: 48%;
+  margin-bottom: 3.6%;
+}
+
+.poster-l {
+  margin-right: 3.5%;
+}
+
+.poster-r {}
+
+@media (min-width: 544px) {
+  .hero {
+    padding-top: 70px;
+    height: 450px;
+    font-size: 2em;
+  }
+  .hero img {
+    height: 150px;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  #main-hero {
+    height: 370px;
+  }
+}
+
+@media (max-width: 543px) {
+  .hero {
+    font-size: 1rem;
+    height: auto;
+    padding-top: 200px;
+    padding-bottom: 20px;
+  }
+  .hero img {
+    height: 100px;
+  }
+  #main-hero {
+    padding-top: 50px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .poster {
+    display: block;
+    text-align: center;
+    margin-right: 0%;
+    margin: auto auto;
+    width: 80%;
+    margin-bottom: 3.6%;
+  }
+}

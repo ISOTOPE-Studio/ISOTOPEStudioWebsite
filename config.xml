@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	maxImageWidth="1440"
+	maxImageHeight="1080"
+	imageQuality="80"
+	cropToFit="true"
+	galleryTitle="Romeo And Juliet"
+	showOpenButton="true"
+	useThumbDots="false"
+	useFullscreenExpand="false"
+
+>
+  <image imageURL="images/DSC_6028.jpg"
+	thumbURL="thumbs/DSC_6028.jpg"
+	linkURL="images/DSC_6028.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6028.jpg">
+    <title><![CDATA[DSC_6028]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6078.jpg"
+	thumbURL="thumbs/DSC_6078.jpg"
+	linkURL="images/DSC_6078.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6078.jpg">
+    <title><![CDATA[DSC_6078]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6082.jpg"
+	thumbURL="thumbs/DSC_6082.jpg"
+	linkURL="images/DSC_6082.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6082.jpg">
+    <title><![CDATA[DSC_6082]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6093.jpg"
+	thumbURL="thumbs/DSC_6093.jpg"
+	linkURL="images/DSC_6093.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6093.jpg">
+    <title><![CDATA[DSC_6093]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6106.jpg"
+	thumbURL="thumbs/DSC_6106.jpg"
+	linkURL="images/DSC_6106.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6106.jpg">
+    <title><![CDATA[DSC_6106]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6123.jpg"
+	thumbURL="thumbs/DSC_6123.jpg"
+	linkURL="images/DSC_6123.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6123.jpg">
+    <title><![CDATA[DSC_6123]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6132.jpg"
+	thumbURL="thumbs/DSC_6132.jpg"
+	linkURL="images/DSC_6132.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6132.jpg">
+    <title><![CDATA[DSC_6132]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6165.jpg"
+	thumbURL="thumbs/DSC_6165.jpg"
+	linkURL="images/DSC_6165.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6165.jpg">
+    <title><![CDATA[DSC_6165]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6197.jpg"
+	thumbURL="thumbs/DSC_6197.jpg"
+	linkURL="images/DSC_6197.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6197.jpg">
+    <title><![CDATA[DSC_6197]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6206.jpg"
+	thumbURL="thumbs/DSC_6206.jpg"
+	linkURL="images/DSC_6206.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6206.jpg">
+    <title><![CDATA[DSC_6206]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6220.jpg"
+	thumbURL="thumbs/DSC_6220.jpg"
+	linkURL="images/DSC_6220.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6220.jpg">
+    <title><![CDATA[DSC_6220]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6255.jpg"
+	thumbURL="thumbs/DSC_6255.jpg"
+	linkURL="images/DSC_6255.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6255.jpg">
+    <title><![CDATA[DSC_6255]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6256.jpg"
+	thumbURL="thumbs/DSC_6256.jpg"
+	linkURL="images/DSC_6256.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6256.jpg">
+    <title><![CDATA[DSC_6256]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6274.jpg"
+	thumbURL="thumbs/DSC_6274.jpg"
+	linkURL="images/DSC_6274.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6274.jpg">
+    <title><![CDATA[DSC_6274]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6284.jpg"
+	thumbURL="thumbs/DSC_6284.jpg"
+	linkURL="images/DSC_6284.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6284.jpg">
+    <title><![CDATA[DSC_6284]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6322.jpg"
+	thumbURL="thumbs/DSC_6322.jpg"
+	linkURL="images/DSC_6322.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6322.jpg">
+    <title><![CDATA[DSC_6322]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6361.jpg"
+	thumbURL="thumbs/DSC_6361.jpg"
+	linkURL="images/DSC_6361.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6361.jpg">
+    <title><![CDATA[DSC_6361]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6374.jpg"
+	thumbURL="thumbs/DSC_6374.jpg"
+	linkURL="images/DSC_6374.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6374.jpg">
+    <title><![CDATA[DSC_6374]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6382.jpg"
+	thumbURL="thumbs/DSC_6382.jpg"
+	linkURL="images/DSC_6382.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6382.jpg">
+    <title><![CDATA[DSC_6382]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6422.jpg"
+	thumbURL="thumbs/DSC_6422.jpg"
+	linkURL="images/DSC_6422.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6422.jpg">
+    <title><![CDATA[DSC_6422]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6436.jpg"
+	thumbURL="thumbs/DSC_6436.jpg"
+	linkURL="images/DSC_6436.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6436.jpg">
+    <title><![CDATA[DSC_6436]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6452.jpg"
+	thumbURL="thumbs/DSC_6452.jpg"
+	linkURL="images/DSC_6452.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6452.jpg">
+    <title><![CDATA[DSC_6452]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6522.jpg"
+	thumbURL="thumbs/DSC_6522.jpg"
+	linkURL="images/DSC_6522.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6522.jpg">
+    <title><![CDATA[DSC_6522]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6549.jpg"
+	thumbURL="thumbs/DSC_6549.jpg"
+	linkURL="images/DSC_6549.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6549.jpg">
+    <title><![CDATA[DSC_6549]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6594.jpg"
+	thumbURL="thumbs/DSC_6594.jpg"
+	linkURL="images/DSC_6594.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6594.jpg">
+    <title><![CDATA[DSC_6594]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_5894.jpg"
+	thumbURL="thumbs/DSC_5894.jpg"
+	linkURL="images/DSC_5894.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_5894.jpg">
+    <title><![CDATA[DSC_5894]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_5898.jpg"
+	thumbURL="thumbs/DSC_5898.jpg"
+	linkURL="images/DSC_5898.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_5898.jpg">
+    <title><![CDATA[DSC_5898]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_5911.jpg"
+	thumbURL="thumbs/DSC_5911.jpg"
+	linkURL="images/DSC_5911.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_5911.jpg">
+    <title><![CDATA[DSC_5911]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_5913.jpg"
+	thumbURL="thumbs/DSC_5913.jpg"
+	linkURL="images/DSC_5913.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_5913.jpg">
+    <title><![CDATA[DSC_5913]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_5914.jpg"
+	thumbURL="thumbs/DSC_5914.jpg"
+	linkURL="images/DSC_5914.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_5914.jpg">
+    <title><![CDATA[DSC_5914]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_5924.jpg"
+	thumbURL="thumbs/DSC_5924.jpg"
+	linkURL="images/DSC_5924.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_5924.jpg">
+    <title><![CDATA[DSC_5924]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_5936.jpg"
+	thumbURL="thumbs/DSC_5936.jpg"
+	linkURL="images/DSC_5936.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_5936.jpg">
+    <title><![CDATA[DSC_5936]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_5944.jpg"
+	thumbURL="thumbs/DSC_5944.jpg"
+	linkURL="images/DSC_5944.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_5944.jpg">
+    <title><![CDATA[DSC_5944]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_5946.jpg"
+	thumbURL="thumbs/DSC_5946.jpg"
+	linkURL="images/DSC_5946.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_5946.jpg">
+    <title><![CDATA[DSC_5946]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_5956.jpg"
+	thumbURL="thumbs/DSC_5956.jpg"
+	linkURL="images/DSC_5956.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_5956.jpg">
+    <title><![CDATA[DSC_5956]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_5964.jpg"
+	thumbURL="thumbs/DSC_5964.jpg"
+	linkURL="images/DSC_5964.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_5964.jpg">
+    <title><![CDATA[DSC_5964]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_5970.jpg"
+	thumbURL="thumbs/DSC_5970.jpg"
+	linkURL="images/DSC_5970.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_5970.jpg">
+    <title><![CDATA[DSC_5970]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_5999.jpg"
+	thumbURL="thumbs/DSC_5999.jpg"
+	linkURL="images/DSC_5999.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_5999.jpg">
+    <title><![CDATA[DSC_5999]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6021.jpg"
+	thumbURL="thumbs/DSC_6021.jpg"
+	linkURL="images/DSC_6021.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6021.jpg">
+    <title><![CDATA[DSC_6021]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_6027.jpg"
+	thumbURL="thumbs/DSC_6027.jpg"
+	linkURL="images/DSC_6027.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Mars Tan\Desktop\box\DSC_6027.jpg">
+    <title><![CDATA[DSC_6027]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>
