@@ -27,8 +27,8 @@
   font-weight: 700;
 }
 
-a,
-a:visited,
-a:link {
+.download,
+.download:visited,
+.download:link {
   color: darkblue;
 }
