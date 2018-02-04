@@ -1,0 +1,71 @@
+.hero-img {
+  text-align: center;
+}
+
+.hero-img img {
+  width: 1024px;
+  margin-top: 50px
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+}
+
+.hero {
+  background: none;
+}
+
+.img {
+  width: 45%;
+  margin: 2%;
+  display: inline-block;
+  float: left;
+}
+
+.body h1 {
+  font-size: 3em;
+  margin-top: 20px;
+  border-bottom: 3px solid lightblue;
+}
+
+.body h2 {
+  font-size: 1.7em;
+  margin-top: 20px;
+  border-bottom: 1px solid green;
+}
+
+.body p {
+  margin: 0;
+}
+
+h2,
+h3,
+h4 {
+  margin-top: 10px;
+}
+
+.led {
+  height: 1em;
+}
+
+.github-icon {
+  height: 32px;
+  transition: 0.2s;
+}
+
+.github-icon:hover {
+  filter: brightness(0.15);
+  transition: 0.2s;
+}
+
+@media (max-width: 1024px) {
+  .hero-img img {
+    width: 100%;
+  }
+  .img {
+    width: 100%;
+    margin: 0%;
+    float: none;
+  }
+}

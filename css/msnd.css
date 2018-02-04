@@ -1,0 +1,53 @@
+.hero {
+  padding: 20px;
+  height: 100%;
+  background: url('../img/msnd_bg.png') center no-repeat;
+  ;
+  background-color: aliceblue;
+}
+
+.hero img {
+  display: block;
+  animation: 3s appear forwards;
+  animation-timing-function: cubic-bezier(.02, .52, 0, .94);
+  transition: 0.5s;
+}
+
+.msnd_logo {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 50%;
+}
+
+.msnd_title {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 20%;
+}
+
+@media (max-width: 770px) {
+  .msnd_logo {
+    width: 100%;
+  }
+  .msnd_title {
+    width: 60%;
+  }
+}
+
+.youku_logo {
+  width: 200px;
+}
+
+.cast {
+  line-height: 0.6;
+}
+
+.character {
+  font-weight: 700;
+}
+
+.download,
+.download:visited,
+.download:link {
+  color: darkblue;
+}

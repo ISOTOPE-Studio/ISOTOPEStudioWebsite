@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>MICROCONTROLLER-ASSITED GARDENING | ISOTOPE Studio</title>
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/arduino.css">
+
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
+  <script src="lib/jquery.min.js"></script>
+  <script>
+    $(function() {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+
+  </script>
+</head>
+
+
+<body>
+
+  <header id="header" class="clearfix">
+  </header>
+  <div class="hero-img">
+    <img src="img/arduino-plan.svg"></div>
+
+  <section class="title" id="main-hero">
+    <div class="container">
+      <h1 class="">MICROCONTROLLER-ASSITED GARDENING</h1>
+      <h1 class="">微电脑辅助自动浇花系统</h1>
+    </div>
+  </section>
+
+  <section class="body">
+    <div class="container">
+      <p>谭健旋/Mars Tan(2014530631); 傅昌城/Frank Fu(2014530604); 刘建乐/Leon Liu(20145305xx)</p>
+      <div>
+        <h1>Feature | 功能</h1>
+        <ul>
+          <li>Huge water bucket</li>
+          <li>超大水桶，长时间都不用补水</li>
+          <li>LED indicators for monitoring soil moisture and pump status</li>
+          <li>LED指示灯 直观显示土壤及水泵状态</li>
+          <li>Send sensor data via Blynk, a power IoT platform for Arduino</li>
+          <li>通过Wi-Fi连接Blynk服务器检测传感器数据，一个强大的物联网平台</li>
+        </ul>
+      </div>
+      <div>
+        <h1>LED</h1>
+        <h2>Startup | 启动</h2>
+        <img class="led" src="img/arduino/led-g-on.svg">
+        <img class="led" src="img/arduino/led-b-on.svg">
+        <img class="led" src="img/arduino/led-r-on.svg">
+        <span>-></span>
+        <img class="led" src="img/arduino/led-g-off.svg">
+        <img class="led" src="img/arduino/led-b-off.svg">
+        <img class="led" src="img/arduino/led-r-on.svg">
+        <span>-></span>
+        <img class="led" src="img/arduino/led-g-off.svg">
+        <img class="led" src="img/arduino/led-b-on.svg">
+        <img class="led" src="img/arduino/led-r-off.svg">
+        <span>-></span>
+        <img class="led" src="img/arduino/led-g-on.svg">
+        <img class="led" src="img/arduino/led-b-off.svg">
+        <img class="led" src="img/arduino/led-r-off.svg">
+        <span>-></span>
+        <img class="led" src="img/arduino/led-g-on.svg">
+        <img class="led" src="img/arduino/led-b-on.svg">
+        <img class="led" src="img/arduino/led-r-on.svg">
+        <h2>Running | 运行中</h2>
+        <h3>Soil Mositure Low | 土壤湿度不足</h3>
+        <h4>Watering | 浇水中</h4>
+        <img class="led" src="img/arduino/led-g-on.svg">
+        <img class="led" src="img/arduino/led-b-off.svg">
+        <img class="led" src="img/arduino/led-r-on.svg">
+        <h4>Timeout | 超时</h4>
+        <img class="led" src="img/arduino/led-g-on.svg">
+        <img class="led" src="img/arduino/led-b-off.svg">
+        <img class="led" src="img/arduino/led-r-on.svg">
+        <p>If the soil mositure level is still not optimum after watering for 15 seconds, it will stop watering for 30 seconds</p>
+        <p>如果浇水15秒仍未达到理想湿度，则停止浇水30秒。再检测数值</p>
+        <h3>Soil Mositure Moderate | 土壤湿度良好</h3>
+        <img class="led" src="img/arduino/led-g-off.svg">
+        <img class="led" src="img/arduino/led-b-on.svg">
+        <img class="led" src="img/arduino/led-r-off.svg">
+        <h3>Soil Mositure Good | 土壤湿度优秀</h3>
+        <img class="led" src="img/arduino/led-g-on.svg">
+        <img class="led" src="img/arduino/led-b-off.svg">
+        <img class="led" src="img/arduino/led-r-off.svg">
+        <h3>Sensor error | 传感器出错</h3>
+        <img class="led" src="img/arduino/led-g-on.svg">
+        <img class="led" src="img/arduino/led-b-on.svg">
+        <img class="led" src="img/arduino/led-r-on.svg">
+      </div>
+      <div class="clearfix">
+        <h1>Components | 元件</h1>
+        <img class="img" src="img/arduino/hub.jpg">
+        <h2>Mositure sensor</h2>
+        <h2>土壤湿度感应器</h2>
+        <img class="img" src="img/arduino/sensor.jpg">
+        <h2>Arduino board</h2>
+        <img class="img" src="img/arduino/motherb.jpg">
+        <h2>Relay</h2>
+        <h2>继电器</h2>
+        <img class="img" src="img/arduino/relay.jpg">
+        <h2>Relay</h2>
+        <h2>继电器</h2>
+        <img class="img" src="img/arduino/wifi.jpg">
+        <h2>LED</h2>
+        <h2>指示灯</h2>
+        <img class="img" src="img/arduino/led.jpg">
+        <h2>Pump(Inside)</h2>
+        <h2>水泵 水桶内部</h2>
+        <img class="img" src="img/arduino/pump_i.jpg">
+        <h2>Pump(Outside)</h2>
+        <h2>水泵 水桶外部</h2>
+        <img class="img" src="img/arduino/pump_o.jpg">
+      </div>
+      <div>
+        <h1>Code</h1>
+        <h1>代码</h1>
+        <h2>Arduino</h2>
+        <a href="https://github.com/TANJX/Arduino-MICROCONTROLLER-GARDENING/blob/master/Arduino_Soil.ino" target="_blank">
+          <img class="github-icon" src="img/github.svg"></a>
+        <h2>NodeMCU Wi-Fi</h2>
+        <a href="https://github.com/TANJX/Arduino-MICROCONTROLLER-GARDENING/blob/master/NodeMCU_WiFi.ino" target="_blank">
+          <img class="github-icon" src="img/github.svg"></a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div id="footer"></div>
+
+  <script src="lib/jquery.min.js"></script>
+  <script src="lib/tether.min.js"></script>
+  <script src="lib/bootstrap.min.js"></script>
+
+</body>
+
+</html>
